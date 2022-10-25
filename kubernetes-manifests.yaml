@@ -269,7 +269,8 @@ spec:
                 - all
             privileged: false
             readOnlyRootFilesystem: true
-          image: docker.io/gdmlcjs/frontend
+          image: gcr.io/google-samples/microservices-demo/frontend:v0.3.9
+          # image: docker.io/gdmlcjs/frontend
           ports:
           - containerPort: 8080
           readinessProbe:
